@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600;700&family=Changa+One&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+background-image: url("https://tse2.mm.bing.net/th?id=OIP.HcCHIml_In_F0AY___YOTAHaE8&pid=Api&P=0");
+background-repeat: no-repeat;
+background-size: 40%;
+background-position: 50% 7cm;
+}
+header {
+display: flex;
+width: 70%;
+height: 10vh;
+justify-content: center;
+margin-left: 15%;
+
+}
+nav {
+display: flex;
+align-items: center;
+
+}
+li {
+display: inline-flex;
+color: #36CDCD;
+text-decoration: underline wavy #156464;
+
+}
+li a {
+gap: 20px;
+color: #36CDCD;
+text-decoration: none;
+margin: 30px;
+}
+h1 {
+text-align: center;
+font-family:'Alkatra', cursive;
+font-size: 3em;
+}
+main {
+height: 80vh;
+}
+p {
+display: flex;
+text-justify: center;
+font-size: 1.85em;
+text-align: center;
+}
+.btn {
+display: flex;
+justify-content: right;
+margin: 12% 6%
+
+}
+.btn-principal {
+width: 15%;
+height: 40px;
+font-size: 1.3em;
+font-family:'Alkatra', cursive;
+border: 2px dotted #156464;
+background-color: white;
+cursor: pointer;
+box-shadow: 0 0 6px 0  #156464, inset 0 0 10px #C1F4F4;
+}
+hr {
+height: 3px;
+border-top: 3px solid #156464;
+margin: 0 10%;
+}
+footer {
+display: flex;
+justify-content: center;
+}
+.contact {
+display: inline-flex;
+gap: 50px;
+color: #36CDCD;
+padding: 2% 38%;
+}
+.contact a {
+text-decoration: none;
+color: #36CDCD;
+}
+
